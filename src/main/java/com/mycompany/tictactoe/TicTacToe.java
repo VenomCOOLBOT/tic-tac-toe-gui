@@ -1,0 +1,20 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+package com.mycompany.tictactoe;
+
+/**
+ *
+ * @author verno
+ */
+public class TicTacToe {
+
+    public static void main(String[] args) {
+        TicTacToe ttt = new TicTacToe();
+    }
+
+    public TicTacToe() {
+        View view = new View();
+        view.setVisible(true);
+    }
+}
